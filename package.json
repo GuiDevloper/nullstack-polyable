@@ -1,0 +1,13 @@
+{
+  "name": "nullstack-polyable",
+  "version": "0.9.5",
+  "description": "Making Nullstack framework able to read any template vocable you type",
+  "main": "index.js",
+  "keywords": [
+    "nullstack",
+    "element",
+    "plugin"
+  ],
+  "author": "GuiDevloper",
+  "license": "MIT"
+}
