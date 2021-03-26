@@ -1,19 +1,34 @@
 # Tests
 
+Built with [`create-nullstack-app`](https://github.com/nullstack/create-nullstack-app) by:
+
 <img src='https://raw.githubusercontent.com/nullstack/nullstack/master/nullstack.png' height='60' alt='Nullstack' />
 
-## How to run this Project
+## How to install
 
 Install the dependencies:
 
-`npm install`
+```sh
+npm link # at root of package
+cd tests
+npm install # or install with yarn install
+npm link nullstack-polyable
+```
 
-Run the app in development mode:
+## How to run the tests (still to be added)
 
-`npm start`
+`cd` to the `tests` folder and run the application:
 
-Open [http://localhost:5000](http://localhost:5000) to view it in the browser.
+```sh
+npm start # run the tests project
+```
+
+in another terminal `cd` to the `tests` folder and run the tests:
+
+```sh
+npm test
+```
 
 ## Learn more about Nullstack
 
-[Read the documentation](https://nullstack.app/documentation)
+[Read Nullstack documentation](https://nullstack.app/documentation)
