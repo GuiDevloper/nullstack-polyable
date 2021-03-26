@@ -1,0 +1,15 @@
+{
+  "name": "tests",
+  "version": "0.0.1",
+  "description": "Testing for nullstack-polyable package",
+  "author": "GuiDevloper",
+  "license": "MIT",
+  "devDependencies": {
+    "nullstack": "~0.10.0",
+    "nullstack-polyable": "*"
+  },
+  "scripts": {
+    "start": "npx webpack --config node_modules/nullstack/webpack.config.js --mode=development --watch",
+    "build": "npx webpack --config node_modules/nullstack/webpack.config.js --mode=production"
+  }
+}

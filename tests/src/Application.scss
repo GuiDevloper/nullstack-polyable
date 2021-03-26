@@ -1,0 +1,29 @@
+body {
+  background-color: #2d3748;
+  color: #fff;
+  font-family: 'Roboto', sans-serif;
+  text-align: center;
+}
+
+/*! purgecss start ignore */
+#application {
+  button,
+  input,
+  h1,
+  span {
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+    display: block;
+    margin: 0 auto;
+  }
+  div {
+    margin: 5vh auto;
+  }
+}
+/*! purgecss end ignore */
+
+.nullstack-logo {
+  width: 30vw;
+}
