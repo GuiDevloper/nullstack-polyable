@@ -9,7 +9,7 @@
     "nullstack-polyable": "*"
   },
   "scripts": {
-    "start": "npx webpack --config node_modules/nullstack/webpack.config.js --mode=development --watch",
-    "build": "npx webpack --config node_modules/nullstack/webpack.config.js --mode=production"
+    "start": "npx nulla start",
+    "build": "npx nulla build"
   }
 }
