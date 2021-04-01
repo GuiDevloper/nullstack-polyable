@@ -15,7 +15,7 @@ npm install # or install with yarn install
 npm link nullstack-polyable
 ```
 
-## How to run the tests (still to be added)
+## How to run the tests
 
 `cd` to the `tests` folder and run the application:
 
