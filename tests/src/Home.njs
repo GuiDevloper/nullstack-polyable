@@ -9,21 +9,23 @@ class Home extends Nullstack {
     page.locale = 'pt-BR';
   }
 
+  ação = '';
   exibe({ ação }) {
+    this.ação = ação;
     console.log(ação);
   }
 
   renderiza() {
-    const { exibe } = this;
+    const { exibe, ação } = this;
     return (
       <>
         <div class="nullstack-logo">
           <Logo light />
         </div>
-        <botão aoclicar={exibe} ação="clicado!">
+        <botão aoclicar={exibe} ação="clicado!" data-btn={ação}>
           Clique aqui
         </botão>
-        <entrada aoteclar={exibe} ação="digitado!" />
+        <entrada aoteclar={exibe} ação="digitado!" data-input={ação} />
       </>
     )
   }
