@@ -37,7 +37,7 @@ Nullstack.use(polyable({
 
 ## Examples
 
-> All can be seen being used on tests folder
+> Everything can be seen being used on tests folder
 
 After the configuration, the use become this:
 
@@ -48,12 +48,13 @@ exibe({ ação }) {
 }
 
 renderiza() {
+  const { exibe } = this;
   return (
     <>
-      <botão aoclicar={this.console} ação="clicado!">
+      <botão aoclicar={exibe} ação="clicado!">
         Clique aqui
       </botão>
-      <entrada aoteclar={this.console} ação="digitado!" />
+      <entrada aoteclar={exibe} ação="digitado!" />
     </>
   )
 }

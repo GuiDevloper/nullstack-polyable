@@ -14,20 +14,20 @@ class Home extends Nullstack {
   }
 
   renderiza() {
+    const { exibe } = this;
     return (
       <>
         <div class="nullstack-logo">
           <Logo light />
         </div>
-        <botão aoclicar={this.console} ação="clicado!">
+        <botão aoclicar={exibe} ação="clicado!">
           Clique aqui
         </botão>
-        <entrada aoteclar={this.console} ação="digitado!" />
+        <entrada aoteclar={exibe} ação="digitado!" />
       </>
     )
   }
   prepare = this.prepara;
-  console = this.exibe;
   render = this.renderiza;
 }
 
