@@ -16,7 +16,7 @@ or, using Yarn:
 yarn add nullstack-polyable -D
 ```
 
-Then import it in your **index.js** file (as shown here in **tests/index.js**):
+Then import it in your **client.js**/**server.js** files (as shown here in [**tests/index.js**](./tests/client.js)):
 
 > Showing usage changing element types and attributes to pt-BR
 
