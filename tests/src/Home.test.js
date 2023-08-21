@@ -6,7 +6,7 @@ let page;
 beforeAll(async () => {
   browser = await puppeteer.launch();
   page = await browser.newPage();
-  await page.goto('http://localhost:5000');
+  await page.goto('http://localhost:3000');
 });
 
 describe('Home', () => {

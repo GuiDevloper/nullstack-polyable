@@ -5,14 +5,15 @@
   "author": "GuiDevloper",
   "license": "MIT",
   "devDependencies": {
-    "nullstack": "~0.10.0",
+    "nullstack": "~0.20.0",
     "nullstack-polyable": "*",
-    "jest": "^26.6.3",
-    "puppeteer": "^5.5.0"
+    "jest": "29.4.1",
+    "jest-puppeteer": "7.0.0",
+    "puppeteer": "19.6.3"
   },
   "scripts": {
     "start": "npx nullstack start",
     "build": "npx nullstack build",
-    "test": "jest --testTimeout=10000"
+    "test": "jest --runInBand"
   }
 }
